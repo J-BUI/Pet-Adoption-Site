@@ -1,0 +1,70 @@
+/* Place all of your CSS Code in this file */
+
+/********************************************************************************* 
+*
+* WEB222 – Assignment #4a
+*
+* I declare that this assignment is my own work in accordance with Seneca 
+* Academic Policy. No part of this assignment has been copied manually or 
+* electronically from any other source (including web sites) or distributed to 
+* other students. 
+* 
+* Name: Jameson Student ID: 123160178 Date: Mar 12 , 2018 
+* 
+********************************************************************************/
+
+
+/*1. Add a new font colour to the <body> element */ 
+body {color: #0A0A5F;}
+
+
+/*2. Add a new background colour to the <nav> and <footer> elements */
+nav {background: #4D4D5E;}
+
+/*3. Style the <header></header> element using at least 2 properties */
+header {
+	text-shadow: 3px 3px 5px #0A0A5F;
+	text-align: center;
+}
+
+/*4. Style the <h1 class="app-title"></h1> using at least 3 properties. 
+One of these properties must be setting the font to a "web-font",
+ available on the Google Fonts CDN */
+ h1.app-title {	
+ 	font-family: 'Lato', sans-serif;
+ 	color: #E6ECF9;
+ 	font-weight: 800;
+ }
+
+/*5. style div class main-table-container */
+.main-table-container {	
+	overflow: auto; 
+	max-height: 600px;
+	text-align: center;
+}
+
+/*6. Add at least 4 style properties to the <th></th> elements */
+.main-table-top th {
+	font-family: serif;
+	font-size: 150%;
+	background: grey;
+	color: white;
+	border: 2px solid black
+}
+
+/*7. Add at least 4 style properties to the <td></td> elements */
+.main-table td {
+	padding:2px 2px;
+	border: 1px solid black;
+	background: lightgrey;
+	text-align: left;
+}
+
+/*8. Add at least 2 properties to all <span></span> */
+.main-table p span {
+	font-weight: bold; 
+	font-style: italic;
+}
+
+
+
